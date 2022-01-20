@@ -1,0 +1,97 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://backdoor.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /home/damian/wordlists/Discovery/Web-Content/raft-small-words.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Extensions:              php
+[+] Timeout:                 10s
+===============================================================
+2022/01/14 19:23:26 Starting gobuster in directory enumeration mode
+===============================================================
+/.php                 (Status: 403) [Size: 277]
+/.html                (Status: 403) [Size: 277]
+/.html.php            (Status: 403) [Size: 277]
+/wp-admin             (Status: 301) [Size: 315] [--> http://backdoor.htb/wp-admin/]
+/wp-includes          (Status: 301) [Size: 318] [--> http://backdoor.htb/wp-includes/]
+/wp-content           (Status: 301) [Size: 317] [--> http://backdoor.htb/wp-content/] 
+/index.php            (Status: 301) [Size: 0] [--> http://backdoor.htb/]              
+/xmlrpc.php           (Status: 405) [Size: 42]                                        
+/.htm                 (Status: 403) [Size: 277]                                       
+/.htm.php             (Status: 403) [Size: 277]                                       
+/wp-login.php         (Status: 200) [Size: 5674]                                      
+/.                    (Status: 301) [Size: 0] [--> http://backdoor.htb/]              
+/wp-trackback.php     (Status: 200) [Size: 135]                                       
+/.htaccess            (Status: 403) [Size: 277]                                       
+/.htaccess.php        (Status: 403) [Size: 277]                                       
+/wp-config.php        (Status: 200) [Size: 0]                                         
+/.phtml               (Status: 403) [Size: 277]                                       
+/wp-settings.php      (Status: 500) [Size: 0]                                         
+/wp-mail.php          (Status: 403) [Size: 2616]                                      
+/wp-cron.php          (Status: 200) [Size: 0]                                         
+/wp-blog-header.php   (Status: 200) [Size: 0]                                         
+/wp-links-opml.php    (Status: 200) [Size: 223]                                       
+/.htc                 (Status: 403) [Size: 277]                                       
+/.htc.php             (Status: 403) [Size: 277]                                       
+/wp-load.php          (Status: 200) [Size: 0]                                         
+/.html_var_DE         (Status: 403) [Size: 277]                                       
+/.html_var_DE.php     (Status: 403) [Size: 277]                                       
+/wp-signup.php        (Status: 302) [Size: 0] [--> http://backdoor.htb/wp-login.php?action=register]
+/server-status        (Status: 403) [Size: 277]                                                     
+/.htpasswd            (Status: 403) [Size: 277]                                                     
+/.htpasswd.php        (Status: 403) [Size: 277]                                                     
+/wp-activate.php      (Status: 302) [Size: 0] [--> http://backdoor.htb/wp-login.php?action=register]
+/.html.               (Status: 403) [Size: 277]                                                     
+/.html..php           (Status: 403) [Size: 277]                                                     
+/.html.html           (Status: 403) [Size: 277]                                                     
+/.html.html.php       (Status: 403) [Size: 277]                                                     
+/.htpasswds           (Status: 403) [Size: 277]                                                     
+/.htpasswds.php       (Status: 403) [Size: 277]                                                     
+/.htm.                (Status: 403) [Size: 277]                                                     
+/.htm..php            (Status: 403) [Size: 277]                                                     
+/.htmll               (Status: 403) [Size: 277]                                                     
+/.htmll.php           (Status: 403) [Size: 277]                                                     
+/.phps                (Status: 403) [Size: 277]                                                     
+/.html.old            (Status: 403) [Size: 277]                                                     
+/.html.old.php        (Status: 403) [Size: 277]                                                     
+/.ht                  (Status: 403) [Size: 277]                                                     
+/.html.bak            (Status: 403) [Size: 277]                                                     
+/.ht.php              (Status: 403) [Size: 277]                                                     
+/.html.bak.php        (Status: 403) [Size: 277]                                                     
+/.htm.htm             (Status: 403) [Size: 277]                                                     
+/.htm.htm.php         (Status: 403) [Size: 277]                                                     
+/.hta                 (Status: 403) [Size: 277]                                                     
+/.htgroup.php         (Status: 403) [Size: 277]                                                     
+/.html1               (Status: 403) [Size: 277]                                                     
+/.htgroup             (Status: 403) [Size: 277]                                                     
+/.hta.php             (Status: 403) [Size: 277]                                                     
+/.html1.php           (Status: 403) [Size: 277]                                                     
+/.html.LCK.php        (Status: 403) [Size: 277]                                                     
+/.html.printable      (Status: 403) [Size: 277]                                                     
+/.html.LCK            (Status: 403) [Size: 277]                                                     
+/.html.printable.php  (Status: 403) [Size: 277]                                                     
+/.htm.LCK             (Status: 403) [Size: 277]                                                     
+/.htm.LCK.php         (Status: 403) [Size: 277]                                                     
+/.htaccess.bak        (Status: 403) [Size: 277]                                                     
+/.html.php            (Status: 403) [Size: 277]                                                     
+/.htmls               (Status: 403) [Size: 277]                                                     
+/.htx                 (Status: 403) [Size: 277]                                                     
+/.htaccess.bak.php    (Status: 403) [Size: 277]                                                     
+/.html.php.php        (Status: 403) [Size: 277]                                                     
+/.htmls.php           (Status: 403) [Size: 277]                                                     
+/.htx.php             (Status: 403) [Size: 277]                                                     
+/.htlm                (Status: 403) [Size: 277]                                                     
+/.htm2.php            (Status: 403) [Size: 277]                                                     
+/.html-               (Status: 403) [Size: 277]                                                     
+/.htuser              (Status: 403) [Size: 277]                                                     
+/.htlm.php            (Status: 403) [Size: 277]                                                     
+/.htm2                (Status: 403) [Size: 277]                                                     
+/.html-.php           (Status: 403) [Size: 277]                                                     
+/.htuser.php          (Status: 403) [Size: 277]                                                     
+===============================================================
+2022/01/14 19:29:37 Finished
+===============================================================

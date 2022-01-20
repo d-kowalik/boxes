@@ -1,0 +1,150 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://backdoor.htb/index.php/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /home/damian/wordlists/Discovery/Web-Content/raft-small-words.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Extensions:              php
+[+] Timeout:                 10s
+===============================================================
+2022/01/14 19:47:15 Starting gobuster in directory enumeration mode
+===============================================================
+/index.php            (Status: 301) [Size: 0] [--> http://backdoor.htb/]
+/feed                 (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/feed/]
+/contact              (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]
+/rss                  (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/feed/]   
+/blog                 (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/blog/]   
+/wp-register.php      (Status: 301) [Size: 0] [--> http://backdoor.htb/wp-login.php?action=register]
+/about                (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/about/]            
+/a                    (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/about/]            
+/c                    (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]          
+/s                    (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]      
+/t                    (Status: 301) [Size: 0] [--> http://backdoor.htb/]                            
+/wp-feed.php          (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/feed/]             
+/0                    (Status: 301) [Size: 0] [--> http://backdoor.htb/]                            
+/b                    (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/blog/]             
+/admin_index.php      (Status: 301) [Size: 0] [--> http://backdoor.htb/]                            
+/atom                 (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/feed/atom/]        
+/th                   (Status: 301) [Size: 0] [--> http://backdoor.htb/]                            
+/wp-commentsrss2.php  (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/comments/feed/]    
+/h                    (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/2021/07/24/hello-world/]
+/Contact              (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/Contact/]               
+/rorindex.php         (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/sample               (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]           
+/comment-page-1       (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/wp-rss.php           (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/feed/]                  
+/wp-app.php           (Status: 403) [Size: 0]                                                            
+/wp-rss2.php          (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/feed/]                  
+/wp-rdf.php           (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/feed/rdf/]              
+/wp-atom.php          (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/feed/atom/]             
+/Blog                 (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/Blog/]                  
+/the                  (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/About                (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/About/]                 
+/embed                (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/cont                 (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]               
+/noindex.php          (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/co                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]               
+/A                    (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/about/]                 
+/rss2                 (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/feed/]                  
+/sa                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]           
+/no-index.php         (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/C                    (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]               
+/S                    (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]           
+/B                    (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/blog/]                  
+/ab                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/about/]                 
+/T                    (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/The                  (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/H                    (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/2021/07/24/hello-world/]
+/he                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/2021/07/24/hello-world/]
+/page2                (Status: 301) [Size: 0] [--> http://backdoor.htb/page/2/]                          
+/_index.php           (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/hello                (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/2021/07/24/hello-world/]
+/page1                (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/rdf                  (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/feed/rdf/]              
+/Sample               (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]           
+/sam                  (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]           
+/.c                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]               
+/.index.php           (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/comment-page-2       (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/hello-world          (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/2021/07/24/hello-world/]
+/page3                (Status: 301) [Size: 0] [--> http://backdoor.htb/page/3/]                          
+/pindex.php           (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/con                  (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]               
+/.html.               (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/.html]                  
+/abo                  (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/about/]                 
+/newindex.php         (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/siteindex.php        (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/tiki-index.php       (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/.a                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/about/]                 
+/_contentindex.php    (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/bl                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/blog/]                  
+/SA                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]           
+/oldindex.php         (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/comment-page-3       (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/page4                (Status: 301) [Size: 0] [--> http://backdoor.htb/page/4/]                          
+/page5                (Status: 301) [Size: 0] [--> http://backdoor.htb/page/5/]                          
+/cindex.php           (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/page6                (Status: 301) [Size: 0] [--> http://backdoor.htb/page/6/]                          
+/CO                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]               
+/testindex.php        (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/.index.php           (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/0000                 (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/0000/]                  
+/.h                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/2021/07/24/hello-world/]
+/.htm.                (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/.htm]                   
+/sitemapindex.php     (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/conta                (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]               
+/page7                (Status: 301) [Size: 0] [--> http://backdoor.htb/page/7/]                          
+/popup_index.php      (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/.s                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]           
+/comment-page-4       (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/faqdesk_index.php    (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/myaccountindex.php   (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/test_index.php       (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/.A                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/about/]                 
+/newsdesk_index.php   (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/.b                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/blog/]                  
+/.php.                (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/.php]                   
+/.sample              (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]           
+/AB                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/about/]                 
+/TH                   (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/new_index.php        (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/page10               (Status: 301) [Size: 0] [--> http://backdoor.htb/page/10/]                         
+/sample-page          (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]           
+/.t                   (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/1index.php           (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/ABOUT                (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/ABOUT/]                 
+/adm-index.php        (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/searchindex.php      (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/xindex.php           (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/.co                  (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]               
+/BL                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/blog/]                  
+/BLOG                 (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/BLOG/]                  
+/comment-page-5       (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/comment-page-6       (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/old_index.php        (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/page9                (Status: 301) [Size: 0] [--> http://backdoor.htb/page/9/]                          
+/CONTACT              (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/CONTACT/]               
+/THE                  (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/no_index.php         (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/page8                (Status: 301) [Size: 0] [--> http://backdoor.htb/page/8/]                          
+/page14               (Status: 301) [Size: 0] [--> http://backdoor.htb/page/14/]                         
+/page404              (Status: 301) [Size: 0] [--> http://backdoor.htb/page/404/]                        
+/sitemap_index.php    (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/zindex.php           (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/.S                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/sample-page/]           
+/.search.             (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/.search]                
+/images_noindex.php   (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/page22               (Status: 301) [Size: 0] [--> http://backdoor.htb/page/22/]                         
+/page17               (Status: 301) [Size: 0] [--> http://backdoor.htb/page/17/]                         
+/page26               (Status: 301) [Size: 0] [--> http://backdoor.htb/page/26/]                         
+/search_index.php     (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/sw_index.php         (Status: 301) [Size: 0] [--> http://backdoor.htb/]                                 
+/.C                   (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/contact/]               
+/.aspx.               (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/.aspx]                  
+/.contact             (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/.contact/]              
+/.pdf.                (Status: 301) [Size: 0] [--> http://backdoor.htb/index.php/.pdf]                   
+/.sitemap.xml         (Status: 302) [Size: 0] [--> http://backdoor.htb/wp-sitemap.xml]                   

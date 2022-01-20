@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Wed Nov 17 20:03:48 2021 as: nmap -sC -sV -oA netmap-full -p- 10.10.11.100 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA netmap-full -p- 10.10.11.100" start="1637175828" startstr="Wed Nov 17 20:03:48 2021" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1637175828" endtime="1637175870"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.10.11.100" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="conn-refused" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.2" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script><script id="http-title" output="Bounty Hunters"><elem key="title">Bounty Hunters</elem>
+</script></port>
+</ports>
+<times srtt="51738" rttvar="1399" to="100000"/>
+</host>
+<runstats><finished time="1637175870" timestr="Wed Nov 17 20:04:30 2021" elapsed="42.36" summary="Nmap done at Wed Nov 17 20:04:30 2021; 1 IP address (1 host up) scanned in 42.36 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

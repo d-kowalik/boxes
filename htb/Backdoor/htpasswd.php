@@ -1,0 +1,1 @@
+../../../.htpasswd.php../../../.htpasswd.php../../../.htpasswd.php<script>window.close()</script>
